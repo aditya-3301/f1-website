@@ -1,0 +1,123 @@
+#para{
+    font-size:x-large;
+    background: linear-gradient(to right,rgb(127, 255, 146),rgb(0, 21, 255));
+     padding: 25px 25px;
+    border:inset;
+    border-width: 5px;
+    font-weight: 1000;
+    border-radius: 50px;
+    margin-top:60px;
+}
+
+#para2{
+    font-size:x-large;
+    background: linear-gradient(to right,rgb(115, 255, 0),rgb(184, 48, 27));
+     padding: 25px 25px;
+    border:inset;
+    border-width: 5px;
+    font-weight: 1000;
+    border-radius: 50px;
+    margin-top:60px;
+}
+
+.img{
+    float:right;
+    margin:20px;
+    margin-top: 110px;
+    width:30%;
+}
+body{
+    background: linear-gradient(to bottom,rgb(37, 37, 37),rgb(185, 185, 185));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:30px;
+}
+h2{ border: 10px solid; border-color: black; border-radius: 3%;
+    border-width: 5px;
+    padding:10px;
+    color:white;
+    font-size: xx-large;
+    font-family: "press start 2p";
+    text-align: center; 
+    margin:auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black; 
+    max-width: 39%;
+    
+}
+
+.hairpin{
+    margin-bottom:1000px;
+    float:right;
+    padding:10px; 
+}
+
+
+.ex{
+    color:rgb(116, 0, 225);
+}
+
+.logo{ margin-top: 0px;
+    width: 7%;
+    position:absolute; right:1300px;
+    padding:10px;
+    margin-right: 60px;
+    animation: Myslide;
+    animation-play-state:running;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-timing-function: ease-out;
+    animation-duration: 650ms;
+}
+@keyframes Myslide {
+    from{margin-right:-100%;}
+    to{margin-left: 0%;}
+}
+
+
+
+
+
+.first{
+    text-align: center;
+    margin: 0 auto;
+    box-shadow:0px 0px 20px rgb(194, 194, 194);
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.hr-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.left-hr,
+.right-hr {
+  border: none;
+  border-top: 6px dashed black;
+  width: 48%;
+}
+
+a:visited{
+    color: blue;
+}
+a:hover{
+    color:rgb(234, 0, 255)
+}
+
+#second{
+    padding:15px 15px;
+    box-shadow:0px 12px 20px rgb(255, 0, 0);
+}
+
+
